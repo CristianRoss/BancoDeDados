@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE1AA476-7B48-9843-F68E-8F3A0BD7B2D0" name="PERIODOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:00:24 UTC</createdTime>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_periodo" id="4834BAA8-24DF-3BE6-F3EC-FB49649E0727">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:00:31 UTC</createdTime>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="B886E6D7-B120-3F6B-64D7-19EEAD78DA47">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:01:43 UTC</createdTime>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7116D78E-7E0D-54A0-0C84-32D5E45AF561" name="Periodo PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:00:39 UTC</createdTime>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4834BAA8-24DF-3BE6-F3EC-FB49649E0727</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
