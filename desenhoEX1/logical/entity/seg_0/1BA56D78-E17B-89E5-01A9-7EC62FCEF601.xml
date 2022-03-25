@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BA56D78-E17B-89E5-01A9-7EC62FCEF601" name="CURSOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:45:09 UTC</createdTime>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_curso" id="3D12A9C4-EE65-631D-B48E-666E62FA96CE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:45:35 UTC</createdTime>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="25920B27-FD03-AA2A-9E85-52BE169CC33C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:45:44 UTC</createdTime>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="78304F7C-2B2F-E1C0-60B0-D4CDB3046461">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:45:59 UTC</createdTime>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_periodo" id="9C093D7E-4246-F67B-9A15-57CDC6475EEF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:03:14 UTC</createdTime>
+<generatorID>02A69ADB-26AD-D5E3-21F5-7A13C4F29B40</generatorID>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<referedAttribute>4834BAA8-24DF-3BE6-F3EC-FB49649E0727</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_instrutor" id="DD863B8B-F70C-E595-7DA8-B19526DA912D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:04:33 UTC</createdTime>
+<generatorID>C58EF148-FE1D-C362-4D38-1AE77EE14273</generatorID>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<referedAttribute>8FDF6E51-5BC2-4DE2-5C9C-63C66F606465</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracao" id="04DD6330-A10C-A3F8-C49A-382DFE3CCBA9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:26:01 UTC</createdTime>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A35C620-D182-9C99-E80F-2027643CCC66" name="CURSOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:45:43 UTC</createdTime>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D12A9C4-EE65-631D-B48E-666E62FA96CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

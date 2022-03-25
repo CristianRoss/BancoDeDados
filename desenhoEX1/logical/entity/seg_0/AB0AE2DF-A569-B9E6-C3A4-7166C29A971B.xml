@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB0AE2DF-A569-B9E6-C3A4-7166C29A971B" name="MODULOSCERTIFICACAO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:16:57 UTC</createdTime>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_certificado" id="450F98FC-006C-A31E-F181-B038B01E896D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:17:08 UTC</createdTime>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="AA62DEE7-DAD6-0E43-6898-9FB5ED4084FB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:17:29 UTC</createdTime>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C1741C38-6EA4-5BF6-6B9F-21B5060D0F7C" name="MODULOSCERTIFICACAO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:17:28 UTC</createdTime>
+<ownerDesignName>desenhoEX1</ownerDesignName>
+<engineerTo>
+<item key="62F6A636-A041-D42A-3D4B-0709D54A76CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>450F98FC-006C-A31E-F181-B038B01E896D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
