@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06D6BDF3-A4F9-6A01-8FDC-792376109AA8" name="LIVROS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:30:20 UTC</createdTime>
+<ownerDesignName>Exercicio2</ownerDesignName>
+<engineerTo>
+<item key="CEE29279-BCBE-187E-5C09-9EB7482764F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_livro" id="BBCF74B4-61C9-C5BE-06A3-23A3033DBEC1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:33:58 UTC</createdTime>
+<ownerDesignName>Exercicio2</ownerDesignName>
+<engineerTo>
+<item key="CEE29279-BCBE-187E-5C09-9EB7482764F7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="E36477CB-EBF3-2F78-EE04-3B407D9DD9D8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:34:06 UTC</createdTime>
+<ownerDesignName>Exercicio2</ownerDesignName>
+<engineerTo>
+<item key="CEE29279-BCBE-187E-5C09-9EB7482764F7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A7D01EF-75AC-3AC6-411E-1250DAAF9A3F" name="LIVROS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:34:05 UTC</createdTime>
+<ownerDesignName>Exercicio2</ownerDesignName>
+<engineerTo>
+<item key="CEE29279-BCBE-187E-5C09-9EB7482764F7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BBCF74B4-61C9-C5BE-06A3-23A3033DBEC1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
